@@ -23,6 +23,6 @@ export default function RootLayout({ children }: Props) {
         <Sidebar />
         <div className="h-screen sm:pl-[280px]">{children}</div>
       </body>
-    </html>
+    </html >
   );
 }
