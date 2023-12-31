@@ -17,7 +17,7 @@ export default function RootLayout({ children }: Props) {
   return (
     <html lang="en">
       <head>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.2.1/flowbite.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.2.1/flowbite.min.js" async></script>
       </head>
       <body className={jua.variable}>
         <Sidebar />
