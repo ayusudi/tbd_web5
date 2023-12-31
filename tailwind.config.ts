@@ -8,7 +8,20 @@ module.exports = {
     "./src/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        "darkblue": "#13141C",
+        "darkpaleblue": "#1E202C",
+        "primaryblue": "#007FFF",
+        "gray": "#888CAD",
+        "inputblue": "#262837"
+      },
+      fontFamily: {
+        jua: ['var(--font-jua)']
+      },
+    },
   },
-  plugins: [],
+  plugins: [
+    require("flowbite/plugin")
+  ],
 }
